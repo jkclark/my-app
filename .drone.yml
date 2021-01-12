@@ -37,7 +37,7 @@ steps:
     api_server: https://api.staging.corp.mongodb.com
     kubernetes_token:
       from_secret: staging_kubernetes_token
+    values_files: [ "environments/staging.yaml" ]
   when:
     event:
     - push
-  values_files: [ "environments/staging.yaml" ]
