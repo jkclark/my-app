@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    text = "{}<br><br>Here's my secret: {}".format(
+    text = "{}<br><br>Here's my secrety secret: {}".format(
         os.environ.get('APP_MESSAGE', 'This is the backup message. Something is wrong!'),
         os.environ.get('APP_SECRET')
     )
