@@ -1,0 +1,1 @@
+# mana-google-integration
